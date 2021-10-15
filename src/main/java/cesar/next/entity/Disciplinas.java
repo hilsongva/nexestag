@@ -10,7 +10,7 @@ public class Disciplinas implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="SKILLS_ID",nullable = false)
-    private Long COURSE_ID;
+    private Long SKILLS_ID;
 
     @Column(name = "TIPO_SKILL", nullable = false)
     private String tipoSkill;
