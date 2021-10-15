@@ -16,8 +16,8 @@ public class ExperienciaService {
         experienciaDAO.save(experiencias);
     }
 
-    public void findall(){
-        experienciaDAO.findAll();
+    public List<Experiencias> findAll(){
+       return experienciaDAO.findAll();
     }
 
     public void deletar(Experiencias experiencias){

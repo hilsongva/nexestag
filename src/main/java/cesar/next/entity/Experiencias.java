@@ -37,9 +37,7 @@ public class Experiencias implements Serializable {
     @Column(name = "AVALIACAO_EXPERIENCIA", nullable = false)
     private Long avaliacaoSkill;
 
-    @Column(name = "USER_ID", nullable = false)
-    @OneToMany
-    private Long USER_ID;
+
 
 
 
